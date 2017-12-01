@@ -20,7 +20,5 @@ public class Test {
 		
 		GuGuDan ggd = new GuGuDan();
 		ggd.printLoop(oe);
-
-
 	}
 }
