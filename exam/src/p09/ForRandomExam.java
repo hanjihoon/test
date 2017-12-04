@@ -5,7 +5,7 @@ public class ForRandomExam {
 	// 중복불가
 	// 내림차순
 
-	int[][] arr = new int[4][3];
+	int[][] arr = new int[3][3];
 
 	boolean checkdupl(int[][] nums, int num) {
 		for (int i = 0; i < nums.length; i++) {
@@ -21,7 +21,7 @@ public class ForRandomExam {
 	void inputNums() {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
-				int r = (int) (Math.random() * 20);
+				int r = (int) (Math.random() * 21);
 				if (checkdupl(arr, r)) {
 					j--;
 				} else {
@@ -35,7 +35,7 @@ public class ForRandomExam {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				for (int k = 0; k < arr.length; k++) {
-					for (int g = 0; g < arr[i].length; g++) {
+					for (int g = 0; g < arr[k].length; g++) {
 						if (arr[i][j] > arr[k][g]) {
 							int tmp = 0;
 							tmp = arr[i][j];
