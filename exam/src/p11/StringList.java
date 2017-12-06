@@ -2,7 +2,10 @@ package p11;
 
 import java.util.ArrayList;
 
-public class StringList {
+public class StringList extends ArrayList {
+	
+	
+	
 	
 	ArrayList<String> alStr;
 	StringList(){

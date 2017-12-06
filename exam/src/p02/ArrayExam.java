@@ -16,10 +16,12 @@ public class ArrayExam {
 		arr2[4] = 5;
 		
 		String[] strArr = {"월", "화", "수", "목", "금", "토", "일"};
+		
 		for(int i=0; i<7; i++) {
 			System.out.println(strArr[i]);
 		}
-		System.out.println(strArr.length);
+		
+		System.out.println(strArr.toString());
 		
 	}
 }
