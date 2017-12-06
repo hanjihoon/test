@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class ListExam2 {
 
 	ArrayList<String> al;
-//	int arrMaxNum;
 	String sNum;
 	String[] strs;
 
@@ -19,8 +18,6 @@ public class ListExam2 {
 
 	void inputSplit() {
 		Scanner s = new Scanner(System.in);
-//		System.out.println("배열의 크기를 입력해주세요.");
-//		arrMaxNum = s.nextInt();
 		System.out.println("배열화 할 문자열을 입력해주세요.");
 		sNum = s.nextLine();
 		strs = sNum.split(",");
@@ -38,8 +35,6 @@ public class ListExam2 {
 			for (int j = i - 1; j >= 0; j--) {
 				if (strs[i].equals(strs[j])) {
 					System.out.println("값이 중복되었습니다!");
-//					al = new ArrayList<String>();
-//					this.al = al;
 					inputSplit();
 					checkDupl();
 					return;
