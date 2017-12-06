@@ -13,9 +13,9 @@ public class ListExam3 {
 		for (int i = 0; i < 20; i++) {
 			int rNum = r.nextInt(30) + 1;
 			alInt.add(rNum);
-			for (int j = i - 1; j > 0; j--) {
+			for (int j = i -1; j > 0; j--) {
 				if (alInt.get(i) != null && alInt.get(j) != null && alInt.get(i) == alInt.get(j)) {
-					alInt.remove(rNum);
+					alInt.remove(i);
 					i--;
 				}
 			}
