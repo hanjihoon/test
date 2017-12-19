@@ -20,6 +20,7 @@ public class ArrayExam2 {
 				}
 			}
 	}	
+	
 	void printGGD() {
 		for(int i=1;i<=num1;i++) {
 			for(int j=1;j<=num2;j++) {
@@ -27,7 +28,7 @@ public class ArrayExam2 {
 				if(j==num2) {
 					System.out.println(" ,");
 				}else {
-					System.out.println();
+					System.out.println(); 
 				}
 			}
 		}
@@ -37,7 +38,6 @@ public class ArrayExam2 {
 		//입력받은 각각의 단 만큼 구구단을 출력하는 프로그램을 작성해 주시기 바람니다.
 		ArrayExam2 ae2 = new ArrayExam2();
 		ae2.inputNums();
-		ae2.LoopTest();
 		ae2.printGGD();
 	}	
 }
